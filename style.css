@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #d5d5c5;
+ }
+  
+  .navbar{
+      height: 70px;
+      width: 100%;
+      background-color: #f4f4f4;
+    }
+  
+   .navbar >img{
+   position: relative;
+   top: 14px;
+   left: 10px;
+   }
+  
+  .text{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+      color: #197e00;
+      margin-left: 10px;
+      
+  }
+  
+  .icon{
+      font-size: 30px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      color: #616161;
+      bottom: 35px;
+      margin-right: 10px;
+  }
+  
+  .main-container{
+  
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: auto ;
+  }
+
+  .left-div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 1000px;
+      width: 600px;
+      margin-top: 7%;
+      margin-left: 55%;
+      background-color: #a7a793;
+  }
+  
+  .img{
+      margin-top: -75%;
+      margin-left: 27%;
+  
+  }
+  
+  
+  
+  .parents-three-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+   gap: 20px;
+      margin-top: -35%;
+  
+  }
+  
+  
+  .left-container{
+    height: 370px;
+    width: 330px;
+    background-color: white;
+  
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3); 
+  
+      .img-a{
+          padding:25px;
+      }
+  
+      .txt-left{
+  
+          h1{
+              color: #848475;
+           text-align: center;
+           margin-top:-4%;
+              
+          }
+  
+          p{
+            color: #848475;
+              text-align: center;
+              word-spacing: 2px;
+              font-size: 20px;
+              line-height: 40px;
+          }
+      
+      }
+  
+  }
+  
+ @media screen and (max-width:425px ) {
+  
+      .navbar{
+          width: 190%;
+  
+      }
+  
+  }
+  
+  @media screen and (max-width:425px ) {
+  
+      .main-container {
+          height: 900px;
+          width: 190%;
+  
+      }
+  
+  
+      .img{
+          width: 10px;
+          margin-top: -110%;
+          margin-left: 2%;
+          
+           }
+  
+  }
+  
+  
+  @media screen and (max-width:425px ) {
+  
+      .parents-three-container{
+  
+          margin-top: -70%;
+          justify-content: right;
+          margin-left: 50%;
+  
+      }
+  }
+  
